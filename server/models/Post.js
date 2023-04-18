@@ -12,12 +12,12 @@ const postSchema = mongoose.Schema(
     },
     lastName: {
       type: String,
-      reuqired: true,
+      required: true,
     },
     location: String,
     description: String,
     picturePath: String,
-    userPiturePath: String,
+    userPicturePath: String,
     likes: {
       type: Map,
       of: Boolean,
